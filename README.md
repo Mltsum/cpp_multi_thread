@@ -19,3 +19,9 @@
 ## demo_18 : 如何解决多线程在单例模式中，getinstance时，可能冲突的问题？
 ## demo_19 : 用call_once来解决线程加锁的问题
 ## demo_20 : 当线程的入口函数有返回值时，主线程如何拿到？
+## demo_21 : std::package_task 打包线程入口函数，也可以拿到异步线程的返回值
+## demo_22 : 使用promise来实现多线程之间的数据传递
+## demo_23 : std::future 的waitfor的使用
+## demo_24 : 将线程1的结果feature传递给线程2
+## demo_25 : 如果多个线程想要get一个线程的future, 则share_future可以解决多次get的问题
+## demo_26 : 原子操作: std::atomic， 解决多线程对单个变量操作，导致值错误的问题。
